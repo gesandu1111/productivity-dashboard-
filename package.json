@@ -1,0 +1,29 @@
+{
+  "name": "productivity-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal productivity dashboard to track tasks, habits, notes, calendar events, and weather info.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://<your-github-username>.github.io/productivity-dashboard",
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-scripts": "^5.0.2",
+    "web-vitals": "^2.1.4",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.1"
+  },
+  "keywords": ["productivity", "dashboard", "tasks", "habits", "notes", "react"],
+  "author": "<Your Name>",
+  "license": "MIT"
+}
